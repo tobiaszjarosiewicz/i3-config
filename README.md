@@ -2,8 +2,8 @@
 My personal configuration files for i3wm
 
 ## Requirements
-`i3`
-`feh`
+`i3` \
+`feh` \
 `ImageMagick` (only for lock screen)
 
 ## Usage
