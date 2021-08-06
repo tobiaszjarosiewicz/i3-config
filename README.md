@@ -12,6 +12,7 @@ Copy configuration files and reload i3: \
 `super` + `shift` + `r`
 
 The usual place for config files
-- `~/.config/i3/config`
+- `~/.config/i3/config` (i3wm)
 - `~/.Xresources`
+- `~/.config/i3status/config` (i3status)
 
