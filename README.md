@@ -7,8 +7,8 @@ My personal configuration files for i3wm
 `ImageMagick` (only for lock screen)
 
 ## Usage
-Copy configuration files and reload i3:
-`xrdb ~/.Xresources`
+Copy configuration files and reload i3: \
+`xrdb ~/.Xresources` \
 `super` + `shift` + `r`
 
 The usual place for config files
