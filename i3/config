@@ -197,7 +197,7 @@ bar {
 # colour of               border   background  text     indicator  child_border
 client.focused            #4c7899  #3A4E59     #d8dee8  #bf616a    #285577
 client.focused_inactive   #2f343f  #2f343f     #d8dee8  #2f343f    #2f343f
-client.unfocused          #2f343f  #2f343f     #d8dee8  #2f343f    #2f343f
+client.unfocused          #454545  #2f343f     #d8dee8  #2f343f    #2f343f
 client.urgent             #2f343f  #2f343f     #d8dee8  #2f343f    #2f343f
 client.placeholder        #2f343f  #2f343f     #d8dee8  #2f343f    #2f343f
 client.background         #2f343f
