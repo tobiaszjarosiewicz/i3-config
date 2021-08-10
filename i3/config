@@ -186,9 +186,14 @@ bindsym control+mod1+l exec "/home/tob/skrypty/lock_screen.sh"
 # finds out, if available)
 bar {
   colors {
-    background #123D62
+    #background #123D62
+    #background #315E85
+    #background #184C75
+    background #17242B
     statusline #C6E0F6
     separator #666666
+    urgent_workspace   #2F343A #922508 #FFFFFF
+    binding_mode       #2F343A #922508 #FFFFFF
   }
   status_command i3status
 }
