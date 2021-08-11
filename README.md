@@ -16,3 +16,11 @@ The usual place for config files
 - `~/.Xresources`
 - `~/.config/i3status/config` (i3status)
 
+## Favourite themes
+`Solarized Darcula`
+`Solarized Dark`
+`Broadcast`
+`Monokai Dimmed`
+`Red Planet`
+`N0tch2k`
+`Seafoam Pastel`
