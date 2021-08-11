@@ -19,7 +19,7 @@ The usual place for config files
 - `~/.config/i3status/config` (i3status)
 
 ## i3blocks
-* Clone contrib repo:
+* Clone contrib repo: \
 `git clone https://github.com/vivien/i3blocks-contrib.git`
 * Copy scripts to location from the cfg file:
 ```
