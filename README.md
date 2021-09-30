@@ -18,6 +18,7 @@ The usual place for config files
 - `~/.config/i3/config` (i3wm)
 - `~/.Xresources`
 - `~/.config/i3status/config` (i3status)
+- `~/.config/i3blocks/config` (i3blocks)
 - `~/.config/rofi/config.rasi`
 
 ## i3blocks
