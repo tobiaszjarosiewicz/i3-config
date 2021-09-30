@@ -5,6 +5,7 @@ My personal configuration files for i3wm
 `i3` \
 `i3status` \
 `i3blocks` \
+`rofi` \
 `feh` \
 `ImageMagick` (only for lock screen)
 
