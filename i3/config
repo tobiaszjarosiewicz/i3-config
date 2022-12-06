@@ -41,12 +41,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-
-# Note!
-# Make sure that "urxvt" is the first name in the loop which "i3-sensible-terminal" uses
-# to check for available terminals. Corresponding file: /usr/bin/i3-sensible-terminal
-# Line: for terminal in "$TERMINAL" urxvt x-terminal-emulator mate-terminal (...)
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
