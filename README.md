@@ -20,6 +20,7 @@ The usual place for config files
 - `~/.config/i3status/config` (i3status)
 - `~/.config/i3blocks/config` (i3blocks)
 - `~/.config/rofi/config.rasi`
+- `~/.purple/gtkrc-2.0` (Pidgin)
 
 ## i3blocks
 * Clone contrib repo: \
