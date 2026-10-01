@@ -16,6 +16,7 @@ Copy configuration files and reload i3: \
 
 The usual place for config files
 - `~/.config/i3/config` (i3wm)
+- `~/.config/fontconfig/fonts.conf` (emoji)
 - `~/.Xresources`
 - `~/.config/i3status/config` (i3status)
 - `~/.config/i3blocks/config` (i3blocks)
@@ -38,4 +39,9 @@ bandwidth  battery  cputemp  cpu_usage  disk  iface  load_average  memory  volum
 `Monokai Dimmed` \
 `Red Planet` \
 `N0tch2k` \
-`Seafoam Pastel`
+`Seafoam Pastel` \
+`afterglow` \
+`github_dark_dimmed` \
+`Mariana` \
+`nordfox` \
+`monomai_pro`

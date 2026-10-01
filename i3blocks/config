@@ -106,32 +106,6 @@ interval=5
 label=LOAD 
 interval=10
 
-
-[cputemp]
-label=T0 
-instance=0
-#command=$SCRIPT_DIR/cputemp
-interval=10
-
-[cputemp]
-label=T1 
-instance=1
-#command=$SCRIPT_DIR/cputemp
-interval=10
-
-[cputemp]
-label=T2 
-instance=2
-#command=$SCRIPT_DIR/cputemp
-interval=10
-
-[cputemp]
-label=T3 
-instance=3
-#command=$SCRIPT_DIR/cputemp
-interval=10
-
-
 # Battery indicator
 #
 # The battery instance defaults to 0.
@@ -143,7 +117,10 @@ interval=30
 # Date Time
 #
 [time]
-command=date '+%Y-%m-%d %H:%M:%S'
+markup=pango
+#command=date '+%Y-%m-%d %H:%M:%S'
+#command=date '+%Y-%m-%d <big>%H:%M:%S</big>'
+command=date '+%Y-%m-%d <span font-desc="Bold 10" size="large">%H:%M:%S</span>'
 interval=5
 
 # Generic media player support
@@ -166,9 +143,31 @@ interval=5
 # Support multiple chips, though lm-sensors.
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
-#[temperature]
-#label=TEMP
-#interval=10
+[temperature]
+label=TEMP 
+interval=10
+
+#[cpu_util_detailed]
+#command=$SCRIPT_DIR/cpu_util_detailed
+#label=CPU
+#markup=pango
+#interval=-2
+#report_time=5
+#stats=usr nice sys iowait
+#format=%6.2f
+#warn=80
+#usr_color=green
+#nice_color=yellow
+#sys_color=red
+#iowait_color=grey
+#irq_color=purple
+#soft_color=violet
+#steal_color=orange
+#guest_color=cyan
+#gnice_color=blue
+#idle_color=white
+#total_color=white
+
 
 # Key indicators
 #
